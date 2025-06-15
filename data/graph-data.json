@@ -1,0 +1,830 @@
+{
+  "nodes": [
+    {
+      "id": "App.tsx",
+      "type": "file",
+      "position": {
+        "x": 2740,
+        "y": 840
+      },
+      "data": {
+        "label": "App.tsx",
+        "type": "file",
+        "fullPath": "App.tsx"
+      }
+    },
+    {
+      "id": "App.tsx::default",
+      "type": "member",
+      "position": {
+        "x": 2740,
+        "y": 960
+      },
+      "data": {
+        "label": "default",
+        "type": "member",
+        "fullPath": "App.tsx::default"
+      }
+    },
+    {
+      "id": "GlobalStyles.ts",
+      "type": "file",
+      "position": {
+        "x": 0,
+        "y": 600
+      },
+      "data": {
+        "label": "GlobalStyles.ts",
+        "type": "file",
+        "fullPath": "GlobalStyles.ts"
+      }
+    },
+    {
+      "id": "GlobalStyles.ts::GlobalStyle",
+      "type": "member",
+      "position": {
+        "x": 0,
+        "y": 720
+      },
+      "data": {
+        "label": "GlobalStyle",
+        "type": "member",
+        "fullPath": "GlobalStyles.ts::GlobalStyle"
+      }
+    },
+    {
+      "id": "components/GraphViewer/index.tsx",
+      "type": "file",
+      "position": {
+        "x": 2662.5,
+        "y": 600
+      },
+      "data": {
+        "label": "index.tsx",
+        "type": "file",
+        "fullPath": "components/GraphViewer/index.tsx"
+      }
+    },
+    {
+      "id": "components/GraphViewer/index.tsx::default",
+      "type": "member",
+      "position": {
+        "x": 2662.5,
+        "y": 720
+      },
+      "data": {
+        "label": "default",
+        "type": "member",
+        "fullPath": "components/GraphViewer/index.tsx::default"
+      }
+    },
+    {
+      "id": "components/GraphViewer/styles.ts",
+      "type": "file",
+      "position": {
+        "x": 3145,
+        "y": 360
+      },
+      "data": {
+        "label": "styles.ts",
+        "type": "file",
+        "fullPath": "components/GraphViewer/styles.ts"
+      }
+    },
+    {
+      "id": "components/GraphViewer/styles.ts::GraphContainer",
+      "type": "member",
+      "position": {
+        "x": 3290,
+        "y": 480
+      },
+      "data": {
+        "label": "GraphContainer",
+        "type": "member",
+        "fullPath": "components/GraphViewer/styles.ts::GraphContainer"
+      }
+    },
+    {
+      "id": "components/GraphViewer/styles.ts::edgeStyles",
+      "type": "member",
+      "position": {
+        "x": 3000,
+        "y": 480
+      },
+      "data": {
+        "label": "edgeStyles",
+        "type": "member",
+        "fullPath": "components/GraphViewer/styles.ts::edgeStyles"
+      }
+    },
+    {
+      "id": "components/GraphViewer/types.ts",
+      "type": "file",
+      "position": {
+        "x": 455,
+        "y": 0
+      },
+      "data": {
+        "label": "types.ts",
+        "type": "file",
+        "fullPath": "components/GraphViewer/types.ts"
+      }
+    },
+    {
+      "id": "components/nodes/FileNode/index.tsx",
+      "type": "file",
+      "position": {
+        "x": 2467.5,
+        "y": 360
+      },
+      "data": {
+        "label": "index.tsx",
+        "type": "file",
+        "fullPath": "components/nodes/FileNode/index.tsx"
+      }
+    },
+    {
+      "id": "components/nodes/FileNode/index.tsx::default",
+      "type": "member",
+      "position": {
+        "x": 2467.5,
+        "y": 480
+      },
+      "data": {
+        "label": "default",
+        "type": "member",
+        "fullPath": "components/nodes/FileNode/index.tsx::default"
+      }
+    },
+    {
+      "id": "components/nodes/FileNode/styles.ts",
+      "type": "file",
+      "position": {
+        "x": 2457.5,
+        "y": 120
+      },
+      "data": {
+        "label": "styles.ts",
+        "type": "file",
+        "fullPath": "components/nodes/FileNode/styles.ts"
+      }
+    },
+    {
+      "id": "components/nodes/FileNode/styles.ts::FileWrapper",
+      "type": "member",
+      "position": {
+        "x": 2602.5,
+        "y": 240
+      },
+      "data": {
+        "label": "FileWrapper",
+        "type": "member",
+        "fullPath": "components/nodes/FileNode/styles.ts::FileWrapper"
+      }
+    },
+    {
+      "id": "components/nodes/FileNode/styles.ts::FileName",
+      "type": "member",
+      "position": {
+        "x": 2312.5,
+        "y": 240
+      },
+      "data": {
+        "label": "FileName",
+        "type": "member",
+        "fullPath": "components/nodes/FileNode/styles.ts::FileName"
+      }
+    },
+    {
+      "id": "components/nodes/FileNode/types.ts",
+      "type": "file",
+      "position": {
+        "x": 745,
+        "y": 0
+      },
+      "data": {
+        "label": "types.ts",
+        "type": "file",
+        "fullPath": "components/nodes/FileNode/types.ts"
+      }
+    },
+    {
+      "id": "components/nodes/LibraryNode/index.tsx",
+      "type": "file",
+      "position": {
+        "x": 910,
+        "y": 360
+      },
+      "data": {
+        "label": "index.tsx",
+        "type": "file",
+        "fullPath": "components/nodes/LibraryNode/index.tsx"
+      }
+    },
+    {
+      "id": "components/nodes/LibraryNode/index.tsx::default",
+      "type": "member",
+      "position": {
+        "x": 910,
+        "y": 480
+      },
+      "data": {
+        "label": "default",
+        "type": "member",
+        "fullPath": "components/nodes/LibraryNode/index.tsx::default"
+      }
+    },
+    {
+      "id": "components/nodes/LibraryNode/styles.ts",
+      "type": "file",
+      "position": {
+        "x": 900,
+        "y": 120
+      },
+      "data": {
+        "label": "styles.ts",
+        "type": "file",
+        "fullPath": "components/nodes/LibraryNode/styles.ts"
+      }
+    },
+    {
+      "id": "components/nodes/LibraryNode/styles.ts::LibraryWrapper",
+      "type": "member",
+      "position": {
+        "x": 1045,
+        "y": 240
+      },
+      "data": {
+        "label": "LibraryWrapper",
+        "type": "member",
+        "fullPath": "components/nodes/LibraryNode/styles.ts::LibraryWrapper"
+      }
+    },
+    {
+      "id": "components/nodes/LibraryNode/styles.ts::LibraryName",
+      "type": "member",
+      "position": {
+        "x": 755,
+        "y": 240
+      },
+      "data": {
+        "label": "LibraryName",
+        "type": "member",
+        "fullPath": "components/nodes/LibraryNode/styles.ts::LibraryName"
+      }
+    },
+    {
+      "id": "components/nodes/MemberNode/index.tsx",
+      "type": "file",
+      "position": {
+        "x": 1857.5,
+        "y": 360
+      },
+      "data": {
+        "label": "index.tsx",
+        "type": "file",
+        "fullPath": "components/nodes/MemberNode/index.tsx"
+      }
+    },
+    {
+      "id": "components/nodes/MemberNode/index.tsx::default",
+      "type": "member",
+      "position": {
+        "x": 1857.5,
+        "y": 480
+      },
+      "data": {
+        "label": "default",
+        "type": "member",
+        "fullPath": "components/nodes/MemberNode/index.tsx::default"
+      }
+    },
+    {
+      "id": "components/nodes/MemberNode/styles.ts",
+      "type": "file",
+      "position": {
+        "x": 1935,
+        "y": 120
+      },
+      "data": {
+        "label": "styles.ts",
+        "type": "file",
+        "fullPath": "components/nodes/MemberNode/styles.ts"
+      }
+    },
+    {
+      "id": "components/nodes/MemberNode/styles.ts::MemberWrapper",
+      "type": "member",
+      "position": {
+        "x": 1935,
+        "y": 240
+      },
+      "data": {
+        "label": "MemberWrapper",
+        "type": "member",
+        "fullPath": "components/nodes/MemberNode/styles.ts::MemberWrapper"
+      }
+    },
+    {
+      "id": "components/nodes/MemberNode/types.ts",
+      "type": "file",
+      "position": {
+        "x": 1035,
+        "y": 0
+      },
+      "data": {
+        "label": "types.ts",
+        "type": "file",
+        "fullPath": "components/nodes/MemberNode/types.ts"
+      }
+    },
+    {
+      "id": "main.tsx",
+      "type": "file",
+      "position": {
+        "x": 3107.5,
+        "y": 1080
+      },
+      "data": {
+        "label": "main.tsx",
+        "type": "file",
+        "fullPath": "main.tsx"
+      }
+    },
+    {
+      "id": "types/graph.ts",
+      "type": "file",
+      "position": {
+        "x": 1335,
+        "y": 120
+      },
+      "data": {
+        "label": "graph.ts",
+        "type": "file",
+        "fullPath": "types/graph.ts"
+      }
+    },
+    {
+      "id": "types/graph.ts::NodeData",
+      "type": "member",
+      "position": {
+        "x": 1335,
+        "y": 240
+      },
+      "data": {
+        "label": "NodeData",
+        "type": "member",
+        "fullPath": "types/graph.ts::NodeData"
+      }
+    },
+    {
+      "id": "types/graph.ts::AppNode",
+      "type": "member",
+      "position": {
+        "x": 1645,
+        "y": 240
+      },
+      "data": {
+        "label": "AppNode",
+        "type": "member",
+        "fullPath": "types/graph.ts::AppNode"
+      }
+    },
+    {
+      "id": "types/graph.ts::AppEdge",
+      "type": "member",
+      "position": {
+        "x": 222.5,
+        "y": 480
+      },
+      "data": {
+        "label": "AppEdge",
+        "type": "member",
+        "fullPath": "types/graph.ts::AppEdge"
+      }
+    },
+    {
+      "id": "types/graph.ts::GraphData",
+      "type": "member",
+      "position": {
+        "x": 532.5,
+        "y": 480
+      },
+      "data": {
+        "label": "GraphData",
+        "type": "member",
+        "fullPath": "types/graph.ts::GraphData"
+      }
+    },
+    {
+      "id": "vite-env.d.ts",
+      "type": "file",
+      "position": {
+        "x": 1325,
+        "y": 0
+      },
+      "data": {
+        "label": "vite-env.d.ts",
+        "type": "file",
+        "fullPath": "vite-env.d.ts"
+      }
+    },
+    {
+      "id": "@xyflow/react",
+      "type": "library",
+      "position": {
+        "x": 2100,
+        "y": 0
+      },
+      "data": {
+        "label": "@xyflow/react",
+        "type": "library",
+        "fullPath": "@xyflow/react"
+      }
+    },
+    {
+      "id": "styled-components",
+      "type": "library",
+      "position": {
+        "x": 1615,
+        "y": 0
+      },
+      "data": {
+        "label": "styled-components",
+        "type": "library",
+        "fullPath": "styled-components"
+      }
+    },
+    {
+      "id": "react",
+      "type": "library",
+      "position": {
+        "x": 2892.5,
+        "y": 240
+      },
+      "data": {
+        "label": "react",
+        "type": "library",
+        "fullPath": "react"
+      }
+    },
+    {
+      "id": "@xyflow/react/dist/style.css",
+      "type": "library",
+      "position": {
+        "x": 3580,
+        "y": 480
+      },
+      "data": {
+        "label": "@xyflow/react/dist/style.css",
+        "type": "library",
+        "fullPath": "@xyflow/react/dist/style.css"
+      }
+    },
+    {
+      "id": "react-dom/client",
+      "type": "library",
+      "position": {
+        "x": 3640,
+        "y": 960
+      },
+      "data": {
+        "label": "react-dom/client",
+        "type": "library",
+        "fullPath": "react-dom/client"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-defines-App.tsx-to-App.tsx::default",
+      "source": "App.tsx",
+      "target": "App.tsx::default",
+      "type": "definedIn"
+    },
+    {
+      "id": "e-defines-GlobalStyles.ts-to-GlobalStyles.ts::GlobalStyle",
+      "source": "GlobalStyles.ts",
+      "target": "GlobalStyles.ts::GlobalStyle",
+      "type": "definedIn"
+    },
+    {
+      "id": "e-defines-components-GraphViewer-index.tsx-to-components-GraphViewer-index.tsx::default",
+      "source": "components/GraphViewer/index.tsx",
+      "target": "components/GraphViewer/index.tsx::default",
+      "type": "definedIn"
+    },
+    {
+      "id": "e-defines-components-GraphViewer-styles.ts-to-components-GraphViewer-styles.ts::GraphContainer",
+      "source": "components/GraphViewer/styles.ts",
+      "target": "components/GraphViewer/styles.ts::GraphContainer",
+      "type": "definedIn"
+    },
+    {
+      "id": "e-defines-components-GraphViewer-styles.ts-to-components-GraphViewer-styles.ts::edgeStyles",
+      "source": "components/GraphViewer/styles.ts",
+      "target": "components/GraphViewer/styles.ts::edgeStyles",
+      "type": "definedIn"
+    },
+    {
+      "id": "e-defines-components-nodes-FileNode-index.tsx-to-components-nodes-FileNode-index.tsx::default",
+      "source": "components/nodes/FileNode/index.tsx",
+      "target": "components/nodes/FileNode/index.tsx::default",
+      "type": "definedIn"
+    },
+    {
+      "id": "e-defines-components-nodes-FileNode-styles.ts-to-components-nodes-FileNode-styles.ts::FileWrapper",
+      "source": "components/nodes/FileNode/styles.ts",
+      "target": "components/nodes/FileNode/styles.ts::FileWrapper",
+      "type": "definedIn"
+    },
+    {
+      "id": "e-defines-components-nodes-FileNode-styles.ts-to-components-nodes-FileNode-styles.ts::FileName",
+      "source": "components/nodes/FileNode/styles.ts",
+      "target": "components/nodes/FileNode/styles.ts::FileName",
+      "type": "definedIn"
+    },
+    {
+      "id": "e-defines-components-nodes-LibraryNode-index.tsx-to-components-nodes-LibraryNode-index.tsx::default",
+      "source": "components/nodes/LibraryNode/index.tsx",
+      "target": "components/nodes/LibraryNode/index.tsx::default",
+      "type": "definedIn"
+    },
+    {
+      "id": "e-defines-components-nodes-LibraryNode-styles.ts-to-components-nodes-LibraryNode-styles.ts::LibraryWrapper",
+      "source": "components/nodes/LibraryNode/styles.ts",
+      "target": "components/nodes/LibraryNode/styles.ts::LibraryWrapper",
+      "type": "definedIn"
+    },
+    {
+      "id": "e-defines-components-nodes-LibraryNode-styles.ts-to-components-nodes-LibraryNode-styles.ts::LibraryName",
+      "source": "components/nodes/LibraryNode/styles.ts",
+      "target": "components/nodes/LibraryNode/styles.ts::LibraryName",
+      "type": "definedIn"
+    },
+    {
+      "id": "e-defines-components-nodes-MemberNode-index.tsx-to-components-nodes-MemberNode-index.tsx::default",
+      "source": "components/nodes/MemberNode/index.tsx",
+      "target": "components/nodes/MemberNode/index.tsx::default",
+      "type": "definedIn"
+    },
+    {
+      "id": "e-defines-components-nodes-MemberNode-styles.ts-to-components-nodes-MemberNode-styles.ts::MemberWrapper",
+      "source": "components/nodes/MemberNode/styles.ts",
+      "target": "components/nodes/MemberNode/styles.ts::MemberWrapper",
+      "type": "definedIn"
+    },
+    {
+      "id": "e-defines-types-graph.ts-to-types-graph.ts::NodeData",
+      "source": "types/graph.ts",
+      "target": "types/graph.ts::NodeData",
+      "type": "definedIn"
+    },
+    {
+      "id": "e-defines-types-graph.ts-to-types-graph.ts::AppNode",
+      "source": "types/graph.ts",
+      "target": "types/graph.ts::AppNode",
+      "type": "definedIn"
+    },
+    {
+      "id": "e-defines-types-graph.ts-to-types-graph.ts::AppEdge",
+      "source": "types/graph.ts",
+      "target": "types/graph.ts::AppEdge",
+      "type": "definedIn"
+    },
+    {
+      "id": "e-defines-types-graph.ts-to-types-graph.ts::GraphData",
+      "source": "types/graph.ts",
+      "target": "types/graph.ts::GraphData",
+      "type": "definedIn"
+    },
+    {
+      "id": "e-lib-imports-@xyflow-react-to-App.tsx",
+      "source": "@xyflow/react",
+      "target": "App.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-imports-components-GraphViewer-index.tsx::default-to-App.tsx",
+      "source": "components/GraphViewer/index.tsx::default",
+      "target": "App.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-imports-GlobalStyles.ts::GlobalStyle-to-App.tsx",
+      "source": "GlobalStyles.ts::GlobalStyle",
+      "target": "App.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-lib-imports-styled-components-to-GlobalStyles.ts",
+      "source": "styled-components",
+      "target": "GlobalStyles.ts",
+      "type": "imports"
+    },
+    {
+      "id": "e-lib-imports-react-to-components-GraphViewer-index.tsx",
+      "source": "react",
+      "target": "components/GraphViewer/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-lib-imports-@xyflow-react-to-components-GraphViewer-index.tsx",
+      "source": "@xyflow/react",
+      "target": "components/GraphViewer/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-lib-imports-@xyflow-react-to-components-GraphViewer-index.tsx",
+      "source": "@xyflow/react",
+      "target": "components/GraphViewer/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-lib-imports-@xyflow-react-dist-style.css-to-components-GraphViewer-index.tsx",
+      "source": "@xyflow/react/dist/style.css",
+      "target": "components/GraphViewer/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-imports-components-GraphViewer-styles.ts::GraphContainer-to-components-GraphViewer-index.tsx",
+      "source": "components/GraphViewer/styles.ts::GraphContainer",
+      "target": "components/GraphViewer/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-imports-components-GraphViewer-styles.ts::edgeStyles-to-components-GraphViewer-index.tsx",
+      "source": "components/GraphViewer/styles.ts::edgeStyles",
+      "target": "components/GraphViewer/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-imports-components-nodes-FileNode-index.tsx::default-to-components-GraphViewer-index.tsx",
+      "source": "components/nodes/FileNode/index.tsx::default",
+      "target": "components/GraphViewer/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-imports-components-nodes-MemberNode-index.tsx::default-to-components-GraphViewer-index.tsx",
+      "source": "components/nodes/MemberNode/index.tsx::default",
+      "target": "components/GraphViewer/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-imports-components-nodes-LibraryNode-index.tsx::default-to-components-GraphViewer-index.tsx",
+      "source": "components/nodes/LibraryNode/index.tsx::default",
+      "target": "components/GraphViewer/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-imports-types-graph.ts::GraphData-to-components-GraphViewer-index.tsx",
+      "source": "types/graph.ts::GraphData",
+      "target": "components/GraphViewer/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-imports-types-graph.ts::AppNode-to-components-GraphViewer-index.tsx",
+      "source": "types/graph.ts::AppNode",
+      "target": "components/GraphViewer/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-imports-types-graph.ts::AppEdge-to-components-GraphViewer-index.tsx",
+      "source": "types/graph.ts::AppEdge",
+      "target": "components/GraphViewer/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-lib-imports-styled-components-to-components-GraphViewer-styles.ts",
+      "source": "styled-components",
+      "target": "components/GraphViewer/styles.ts",
+      "type": "imports"
+    },
+    {
+      "id": "e-lib-imports-react-to-components-nodes-FileNode-index.tsx",
+      "source": "react",
+      "target": "components/nodes/FileNode/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-lib-imports-@xyflow-react-to-components-nodes-FileNode-index.tsx",
+      "source": "@xyflow/react",
+      "target": "components/nodes/FileNode/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-imports-types-graph.ts::AppNode-to-components-nodes-FileNode-index.tsx",
+      "source": "types/graph.ts::AppNode",
+      "target": "components/nodes/FileNode/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-imports-components-nodes-FileNode-styles.ts::FileWrapper-to-components-nodes-FileNode-index.tsx",
+      "source": "components/nodes/FileNode/styles.ts::FileWrapper",
+      "target": "components/nodes/FileNode/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-imports-components-nodes-FileNode-styles.ts::FileName-to-components-nodes-FileNode-index.tsx",
+      "source": "components/nodes/FileNode/styles.ts::FileName",
+      "target": "components/nodes/FileNode/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-lib-imports-styled-components-to-components-nodes-FileNode-styles.ts",
+      "source": "styled-components",
+      "target": "components/nodes/FileNode/styles.ts",
+      "type": "imports"
+    },
+    {
+      "id": "e-lib-imports-react-to-components-nodes-LibraryNode-index.tsx",
+      "source": "react",
+      "target": "components/nodes/LibraryNode/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-lib-imports-@xyflow-react-to-components-nodes-LibraryNode-index.tsx",
+      "source": "@xyflow/react",
+      "target": "components/nodes/LibraryNode/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-imports-types-graph.ts::AppNode-to-components-nodes-LibraryNode-index.tsx",
+      "source": "types/graph.ts::AppNode",
+      "target": "components/nodes/LibraryNode/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-imports-components-nodes-LibraryNode-styles.ts::LibraryWrapper-to-components-nodes-LibraryNode-index.tsx",
+      "source": "components/nodes/LibraryNode/styles.ts::LibraryWrapper",
+      "target": "components/nodes/LibraryNode/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-imports-components-nodes-LibraryNode-styles.ts::LibraryName-to-components-nodes-LibraryNode-index.tsx",
+      "source": "components/nodes/LibraryNode/styles.ts::LibraryName",
+      "target": "components/nodes/LibraryNode/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-lib-imports-styled-components-to-components-nodes-LibraryNode-styles.ts",
+      "source": "styled-components",
+      "target": "components/nodes/LibraryNode/styles.ts",
+      "type": "imports"
+    },
+    {
+      "id": "e-lib-imports-react-to-components-nodes-MemberNode-index.tsx",
+      "source": "react",
+      "target": "components/nodes/MemberNode/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-lib-imports-@xyflow-react-to-components-nodes-MemberNode-index.tsx",
+      "source": "@xyflow/react",
+      "target": "components/nodes/MemberNode/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-imports-types-graph.ts::AppNode-to-components-nodes-MemberNode-index.tsx",
+      "source": "types/graph.ts::AppNode",
+      "target": "components/nodes/MemberNode/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-imports-components-nodes-MemberNode-styles.ts::MemberWrapper-to-components-nodes-MemberNode-index.tsx",
+      "source": "components/nodes/MemberNode/styles.ts::MemberWrapper",
+      "target": "components/nodes/MemberNode/index.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-lib-imports-styled-components-to-components-nodes-MemberNode-styles.ts",
+      "source": "styled-components",
+      "target": "components/nodes/MemberNode/styles.ts",
+      "type": "imports"
+    },
+    {
+      "id": "e-lib-imports-react-to-main.tsx",
+      "source": "react",
+      "target": "main.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-lib-imports-react-dom-client-to-main.tsx",
+      "source": "react-dom/client",
+      "target": "main.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-imports-App.tsx::default-to-main.tsx",
+      "source": "App.tsx::default",
+      "target": "main.tsx",
+      "type": "imports"
+    },
+    {
+      "id": "e-lib-imports-@xyflow-react-to-types-graph.ts",
+      "source": "@xyflow/react",
+      "target": "types/graph.ts",
+      "type": "imports"
+    }
+  ]
+}

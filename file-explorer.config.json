@@ -1,0 +1,21 @@
+{
+  "analyzer": {
+    "projectToAnalyze": "./src",
+    "graphDataOutput": "./dataAbout/graph-data.json"
+  },
+  "viewer": {
+    "styles": {
+      "edges": {
+        "imports": {
+          "color": "blue",
+          "width": 2
+        },
+        "definedIn": {
+          "color": "red",
+          "width": 1.5,
+          "dash": "5 5"
+        }
+      }
+    }
+  }
+}
