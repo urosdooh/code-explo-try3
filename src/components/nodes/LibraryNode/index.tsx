@@ -5,7 +5,7 @@ import type { AppNode } from "../../GraphViewer/types";
 import { LibraryWrapper, LibraryName } from "./styles";
 
 // Libraryes nodes
-const LibraryNode = (props: NodeProps<AppNode>) => {
+function LibraryNode(props: NodeProps<AppNode>) {
   const { data, selected } = props;
   return (
     <LibraryWrapper selected={selected}>
@@ -13,6 +13,6 @@ const LibraryNode = (props: NodeProps<AppNode>) => {
       <LibraryName>{data.label}</LibraryName>
     </LibraryWrapper>
   );
-};
+}
 
 export default memo(LibraryNode);

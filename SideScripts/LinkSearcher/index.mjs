@@ -13,7 +13,7 @@ const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, "..", ".."); // Определяем корневую директорию проекта
 
 // Загружаем глобальную конфигурацию из корня проекта
-const configPath = path.join(rootDir, "file-explorer.config.json");
+const configPath = path.join(rootDir, "config.json");
 let config;
 try {
   const globalConfig = JSON.parse(fs.readFileSync(configPath, "utf-8"));

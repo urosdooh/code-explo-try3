@@ -1,7 +1,7 @@
 {
   "analyzer": {
     "projectToAnalyze": "./src",
-    "graphDataOutput": "./dataAbout/graph-data.json"
+    "graphDataOutput": "./data/graph-data.json"
   },
   "viewer": {
     "styles": {
@@ -17,5 +17,6 @@
         }
       }
     }
-  }
+  },
+  "GRIDSIZE": 150
 }

@@ -5,7 +5,7 @@ import type { AppNode } from "../../GraphViewer/types";
 import { MemberWrapper } from "./styles";
 
 //Links
-const MemberNode = (props: NodeProps<AppNode>) => {
+function MemberNode(props: NodeProps<AppNode>) {
   const { data, selected } = props;
   return (
     <MemberWrapper selected={selected}>
@@ -14,6 +14,6 @@ const MemberNode = (props: NodeProps<AppNode>) => {
       {data.label}
     </MemberWrapper>
   );
-};
+}
 
 export default memo(MemberNode);

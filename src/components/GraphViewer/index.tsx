@@ -1,10 +1,11 @@
 import { useState, useCallback, useMemo } from 'react';
 import {
-  ReactFlow, MiniMap, Controls, Background, BackgroundVariant,
+  ReactFlow, MiniMap, Background, BackgroundVariant,
   applyNodeChanges, applyEdgeChanges, addEdge, MarkerType,
 } from '@xyflow/react';
 import type { OnNodesChange, OnEdgesChange, OnConnect } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
+import { FieldControls } from "../FieldControls";
 
 //types
 import type { GraphData, AppNode, AppEdge } from './types'; //graph types
@@ -13,16 +14,20 @@ import { nodeTypes } from './types'; // node types
 import { GraphContainer, edgeStyles } from './styles'; //graph styles
 //data
 import graphData from '../../../data/graph-data.json' with { type: 'json' }; //graph data
-
+import config from '../../../config.json'; //config file
+//components
+import {Field} from '../Field/index'; 
 
 const { nodes: initialNodes, edges: initialEdges } = graphData as GraphData; //descructure graph data
 
 
-const GraphViewer = () => {
+export default function GraphViewer() {
+  const gridSize = config.GRIDSIZE || 150 //grid size from config
+
   const [nodes, setNodes] = useState<AppNode[]>(initialNodes);
   const [edges, setEdges] = useState<AppEdge[]>(initialEdges);
   const [hiddenNodeIds, setHiddenNodeIds] = useState<Set<string>>(new Set());
-
+  
   const onNodesChange: OnNodesChange = useCallback((changes) => setNodes((nds) => applyNodeChanges(changes, nds) as AppNode[]), [setNodes]);
   const onEdgesChange: OnEdgesChange = useCallback((changes) => setEdges((eds) => applyEdgeChanges(changes, eds) as AppEdge[]), [setEdges]);
   const onConnect: OnConnect = useCallback((connection) => setEdges((eds) => addEdge(connection, eds) as AppEdge[]), [setEdges]);
@@ -70,23 +75,25 @@ const GraphViewer = () => {
 
   return (
     <GraphContainer>
-      <ReactFlow
-        nodes={nodesWithStyles}
-        edges={edgesWithStyles}
-        onNodesChange={onNodesChange}
-        onEdgesChange={onEdgesChange}
-        onConnect={onConnect}
-        onNodeClick={onNodeClick}
-        nodeTypes={nodeTypes}
-        fitView
-        attributionPosition="bottom-left"
-      >
-        <Controls />
-        <MiniMap />
-        <Background color="#e5e7eb" variant={BackgroundVariant.Dots} gap={16} />
-      </ReactFlow>
+      <Field gridSize={gridSize}>
+        <ReactFlow
+          nodes={nodesWithStyles}
+          edges={edgesWithStyles}
+          onNodesChange={onNodesChange}
+          onEdgesChange={onEdgesChange}
+          onConnect={onConnect}
+          onNodeClick={onNodeClick}
+          nodeTypes={nodeTypes}
+          fitView
+          attributionPosition="bottom-left"
+          snapToGrid={true}
+          snapGrid={[gridSize, gridSize]}
+        >
+          <FieldControls />
+          <MiniMap />
+          <Background color="black" variant={BackgroundVariant.Cross} gap={gridSize } />
+        </ReactFlow>
+      </Field>
     </GraphContainer>
   );
-};
-
-export default GraphViewer;
+}

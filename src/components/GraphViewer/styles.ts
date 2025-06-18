@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import config from "../../../file-explorer.config.json";
+import config from "../../../config.json";
 
 export const GraphContainer = styled.div`
   width: 100vw;
